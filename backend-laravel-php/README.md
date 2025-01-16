@@ -50,6 +50,14 @@ php artisan serve
 
 Para ver tu proyecto en el navegador, por defecto se va a desplegar en: [localhost:8000/api/](http://localhost:3000/)
 
+### 4. Correr unit test
+
+Si quieres correr los test usando PHPInit, ejecuta:
+
+```bash
+vendor/bin/phpunit
+```
+
 ## Rutas
 
 **GET /locations** Header: x-api-key=<api_key> will return { code: number, name: string, image: string, creeationDate: string }
