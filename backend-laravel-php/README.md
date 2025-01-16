@@ -6,7 +6,7 @@ Aplicacion de sedes hecha en Laravel 10
 ## Requisitos previos
 
 Antes de comenzar, asegúrate de tener instalados los siguientes programas:
-
+- PHP 8.1
 - [Composer](https://getcomposer.org)
 - [Git](https://git-scm.com/)
 
