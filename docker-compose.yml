@@ -1,0 +1,21 @@
+services:
+  backend:
+    container_name: backend-laravel-php
+    build:
+      context: backend-laravel-php
+    ports:  
+      - "8000:8000"
+    restart: on-failure:2
+    environment:
+      DB_HOST: rent-cars-mysql
+      DB_USER: root
+      DB_NAME: alquilerdb
+  
+  frontend:
+    container_name: frontend-next-react
+    build:
+      context: frontend-next-react
+    ports:  
+      - "3000:3000"
+    depends_on:
+      - backend
