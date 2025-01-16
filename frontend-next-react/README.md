@@ -27,7 +27,7 @@ git clone https://github.com/kmilo1717/LocationsApp.git
 Segundo, debes ingresar a la carpeta
 
 ```bash
-cd LocationsApp
+cd LocationsApp/frontend-next-react
 ```
 ### 3. Instalar dependencias
 
