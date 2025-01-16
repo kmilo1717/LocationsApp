@@ -2,8 +2,8 @@ export async function fetchLocations() {
     const apiUrl: string | undefined = process.env.NEXT_PUBLIC_API_URL;
     const apiKey: string | undefined = process.env.API_KEY;
 
-    if (!apiUrl) {
-        throw new Error('API URL is not defined');
+    if (!apiUrl || !apiKey) {
+        throw new Error('API_URL or API_KEY is not defined');
     }
 
     const headers = new Headers({

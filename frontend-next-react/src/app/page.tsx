@@ -26,9 +26,9 @@ export default async function Home() {
     <div className="bg-gray-100 min-h-screen grid grid-rows-[auto,1fr]">
       <main>
         <div className="text-center pt-8">
-          <h1 className="text-4xl font-bold mb-4 text-gray-800">Welcome to Locations App</h1>
+          <h1 className="text-4xl font-bold mb-4 text-gray-800">Bienvenido a Locations App</h1>
           <p className="text-gray-600 mb-8">
-            This is a simple app that allows you get location details.
+            Aquí encontrarás una colección de sedes con su información y fecha de creación.
           </p>
         </div>
         <div className="flex flex-wrap justify-center gap-6 mx-4">
